@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#"
+     xml:base="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Algorithm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Algorithm">
+        <rdfs:comment>The algorithm regardless software implementation</rdfs:comment>
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#CC_BY-SA_2.0_license -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#CC_BY-SA_2.0_license">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#License"/>
+        <rdfs:isDefinedBy>https://creativecommons.org/licenses/by-sa/2.0/</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Creator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Creator">
+        <rdfs:comment>An entity primarily responsible for making the resource.
+Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.</rdfs:comment>
+        <rdfs:isDefinedBy>DC:
+ http://purl.org/dc/elements/1.1/creator</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Dataset -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Dataset">
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#Dataset</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Gene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Gene">
+        <rdfs:comment>A gene is part of a nucleic acid that contains all the necessary elements to encode a functional transcript.</rdfs:comment>
+        <rdfs:isDefinedBy>BIOPAX
+http://purl.obolibrary.org/obo/SO_0000704</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#License -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#License">
+        <rdfs:isDefinedBy>DC
+https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/license</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Model">
+        <rdfs:comment>Model is a generalization of a set of training data able to predict values for unseen instances. It is an output from an execution of a data mining algorithm implementation. Models have a dual nature. They can be treated as data structures and as such represented, stored and manipulated. On the other hand, they act as functions and are executed, taking as input data examples and giving as output the result of applying the function to a data example. Models can also be divided into global or local ones. A global model has global coverage of a data set, i.e., it generalizes the whole data set. A local model, such as a pattern set, is a set of local hypotheses, i.e. each applies to a limited region of the data set.</rdfs:comment>
+        <rdfs:isDefinedBy>IAO
+
+http://purl.obolibrary.org/obo/IAO_0000025</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#Model</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Model_Evaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Model_Evaluation">
+        <rdfs:comment>ModelEvaluation is a setting of a value of the performance measure  specified by the evaluation specification. It connects a measure specification with its value</rdfs:comment>
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Programming_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Programming_Language">
+        <rdfs:comment>A language in which source code is written, intended to executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Software">
+        <rdfs:comment>Software is implemented computer programs, procedures, scripts or rules with associated documentation, possibly constituting an organized environment, stored in read/write memory for the purpose of being executed within a computer system</rdfs:comment>
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Task">
+        <rdfs:comment>Task is a formal description of a process that needs to be completed (e.g. based on inputs and outputs). A Task is any piece of work that needs to be addressed in the data mining process. In ML Schema, it is defined based on data</rdfs:comment>
+        <rdfs:isDefinedBy>MLS: Machine Learning Schema
+www.w3.org/ns/mls#</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Version">
+        <rdfs:comment>A version number is an information content entity which is a sequence of characters borne by part of each of a class of manufactured products or its packaging and indicates its order within a set of other products having the same name.</rdfs:comment>
+        <rdfs:isDefinedBy>IAO
+http://purl.obolibrary.org/obo/IAO_0000129</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Linc_dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Linc_dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Meta-ML_dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Meta-ML_dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Dataset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#QSAR_dataset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#QSAR_dataset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/larisa/ontologies/2020/5/untitled-ontology-33#Dataset"/>
+        <rdfs:comment>Model is a generalization of a set of training data able to predict values for unseen instances. It is an output from an execution of a data mining algorithm implementation. Models have a dual nature. They can be treated as data structures and as such represented, stored and manipulated. On the other hand, they act as functions and are executed, taking as input data examples and giving as output the result of applying the function to a data example. Models can also be divided into global or local ones. A global model has global coverage of a data set, i.e., it generalizes the whole data set. A local model, such as a pattern set, is a set of local hypotheses, i.e. each applies to a limited region of the data set.</rdfs:comment>
+        <rdfs:isDefinedBy>Machine Learning Schema:
+
+http://www.w3.org/ns/mls#Model</rdfs:isDefinedBy>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
